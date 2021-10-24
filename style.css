@@ -1,0 +1,103 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    
+    
+}
+body{
+    background-image: linear-gradient(blue,orange);
+}
+.container{
+    height: 500px; width: 500px;
+    border: 2px solid black;
+    border-radius: 11px;
+    display: flex;
+    justify-content: center;align-items: center;
+    position: relative;
+    left: 440px;
+    top: 160px;
+    margin: 30px;
+    padding: 13px;
+    background-image: linear-gradient(pink,red);
+
+}
+.inner{
+    height: 200px; width: 400px;
+    border: 2px solid black;
+    border-radius: 7px;
+    background-color: white;
+    
+    text-align: center;}
+    /* animation-name: example;
+  animation-duration: 5s;
+  animation-timing-function: linear;
+  animation-delay: 2s;
+  animation-iteration-count: 1;
+  animation-direction: alternate; */
+/* }
+@keyframes example {
+    0%   {height:100px; width:100px;}
+  
+    
+    100% {height:400px; width:400px;}
+  } */
+.text{
+    height: 130px;
+    border: 3px solid white;
+    border-radius: 7px;
+    font-weight: bold;
+    background-color: white;
+    
+
+}
+#nk{
+    position: relative;
+    left: 80px;
+    width: 240px;
+    height: 30px;
+    border: 2px solid rgb(14, 13, 13);
+    background-color: rgb(10, 241, 99);
+}
+#nk:hover{
+    cursor: pointer;
+    font-weight: bold;
+    background-color: rgb(206, 38, 108);
+    border-radius: 10px;
+}
+.number img{
+    height: 100px;
+    width: 100px;
+    position: relative;
+    float: right;
+    top: 3px;
+    
+    
+}
+.number img:hover{
+    cursor: pointer;
+
+    
+}
+.author{
+    position: relative;
+    left: 100px;
+}
+#quotes{
+    position: relative;
+    top: 15px;
+    font-family: 'Bebas Neue', cursive;
+}
+#By{
+    position: relative;
+    left: 70px;
+}
+.title{
+color: blanchedalmond; 
+position: relative;
+left: 610px;   
+top: 180px;
+
+
+text-shadow: 3px 4px 3px orange;
+}
